@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <section className="bg-background py-20 px-6">
+    <section id="projects" className="bg-background py-20 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="flex justify-between items-end mb-12">

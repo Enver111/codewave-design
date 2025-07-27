@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="flex items-center justify-center py-20 bg-background">
+    <section
+      id="home"
+      className="flex items-center justify-center py-20 bg-background"
+    >
       <div className="max-w-7xl mx-auto w-full relative">
         <div className="flex justify-center">
           {/* Main Title */}
