@@ -75,8 +75,8 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-background top-0 z-50 backdrop-blur-sm ">
-      <div className="max-w-7xl mx-auto px-6 py-4 ">
+    <header className="bg-background sticky top-0 z-50 backdrop-blur-sm border-b border-border/50">
+      <div className="max-w-7xl mx-auto px-6 py-4">
         {/* Top bar with logo and theme toggle */}
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center justify-center flex-1">
@@ -85,6 +85,7 @@ const Header = () => {
               alt="CodeWave"
               width={80}
               height={80}
+              className="dark:invert"
             />
             <div className="text-2xl font-bold text-foreground">
               CodeWave
