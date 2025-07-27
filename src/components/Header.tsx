@@ -4,13 +4,13 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 const Header = () => {
-  const [activeTab, setActiveTab] = useState("Home");
+  const [activeTab, setActiveTab] = useState("Главная");
 
   const navigationItems = [
-    { name: "Home", id: "home" },
-    { name: "Projects", id: "projects" },
-    { name: "About", id: "about" },
-    { name: "Contact", id: "contact" },
+    { name: "Главная", id: "home" },
+    { name: "Проекты", id: "projects" },
+    { name: "О нас", id: "about" },
+    { name: "Контакты", id: "contact" },
   ];
 
   const handleTabClick = (tabName: string) => {
