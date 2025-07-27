@@ -25,18 +25,20 @@ const Expertise = () => {
   ];
 
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-16 text-black">Компетенция</h2>
+        <h2 className="text-4xl font-bold mb-16 text-foreground">
+          Компетенция
+        </h2>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-12">
           {expertiseAreas.map((area, index) => (
             <div key={index} className="space-y-4">
-              <h3 className="text-xl font-semibold text-black flex items-center">
-                <span className="w-2 h-2 bg-black rounded-full mr-3"></span>
+              <h3 className="text-xl font-semibold text-foreground flex items-center">
+                <span className="w-2 h-2 bg-foreground rounded-full mr-3"></span>
                 {area.title}
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed pl-5">
+              <p className="text-muted-foreground text-sm leading-relaxed pl-5">
                 {area.description}
               </p>
             </div>

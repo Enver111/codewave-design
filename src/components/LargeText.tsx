@@ -4,7 +4,7 @@ const LargeText = () => {
   const text = "Visual design for digital experiences • ";
 
   return (
-    <section className="py-20 px-6 bg-black text-white overflow-hidden">
+    <section className="py-20 px-6 bg-primary text-primary-foreground overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative whitespace-nowrap">
           <div

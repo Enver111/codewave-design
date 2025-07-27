@@ -6,3 +6,5 @@ export { default as Expertise } from "./Expertise";
 export { default as LargeText } from "./LargeText";
 export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";
+export { ThemeProvider } from "./ThemeProvider";
+export { ThemeToggle } from "./ThemeToggle";
