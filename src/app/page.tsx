@@ -7,6 +7,7 @@ import {
   LargeText,
   Contact,
   Footer,
+  ScrollToTop,
 } from "@/components";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <LargeText />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

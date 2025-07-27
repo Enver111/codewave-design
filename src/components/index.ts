@@ -8,3 +8,4 @@ export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";
 export { ThemeProvider } from "./ThemeProvider";
 export { ThemeToggle } from "./ThemeToggle";
+export { ScrollToTop } from "./ScrollToTop";
