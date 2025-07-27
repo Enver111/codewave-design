@@ -1,0 +1,11 @@
+export { default as Header } from "./Header";
+export { default as Hero } from "./Hero";
+export { default as About } from "./About";
+export { default as Projects } from "./Projects";
+export { default as Expertise } from "./Expertise";
+export { default as LargeText } from "./LargeText";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
+export { ThemeProvider } from "./ThemeProvider";
+export { ThemeToggle } from "./ThemeToggle";
+export { ScrollToTop } from "./ScrollToTop";
